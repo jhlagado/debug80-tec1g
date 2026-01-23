@@ -5,6 +5,12 @@
       "name": "main - Debug80 (TEC-1G MON-1)",
       "type": "z80",
       "request": "launch"
+    },
+    {
+      "name": "lcd-test - Debug80 (TEC-1G MON-1)",
+      "type": "z80",
+      "request": "launch",
+      "target": "lcd-test"
     }
   ]
 }

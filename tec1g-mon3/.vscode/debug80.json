@@ -18,6 +18,24 @@
         "entry": 0,
         "romHex": "../roms/tec1g/mon-3/mon-3.bin"
       }
+    },
+    "lcd-test": {
+      "asm": "src/lcd-test.asm",
+      "sourceFile": "src/lcd-test.asm",
+      "sourceRoots": ["src"],
+      "outputDir": "build",
+      "artifactBase": "lcd-test",
+      "platform": "tec1g",
+      "tec1g": {
+        "regions": [
+          { "start": 0, "end": 2047, "kind": "rom" },
+          { "start": 2048, "end": 32767, "kind": "ram" },
+          { "start": 49152, "end": 65535, "kind": "rom" }
+        ],
+        "appStart": 16384,
+        "entry": 0,
+        "romHex": "../roms/tec1g/mon-3/mon-3.bin"
+      }
     }
   }
 }
