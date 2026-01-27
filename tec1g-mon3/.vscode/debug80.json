@@ -16,7 +16,8 @@
         ],
         "appStart": 16384,
         "entry": 0,
-        "romHex": "../roms/tec1g/mon-3/mon-3.bin"
+        "romHex": "../roms/tec1g/mon-3/mon-3.bin",
+        "extraListings": ["../roms/tec1g/mon-3/mon-3.lst"]
       }
     },
     "lcd-test": {
@@ -34,7 +35,8 @@
         ],
         "appStart": 16384,
         "entry": 0,
-        "romHex": "../roms/tec1g/mon-3/mon-3.bin"
+        "romHex": "../roms/tec1g/mon-3/mon-3.bin",
+        "extraListings": ["../roms/tec1g/mon-3/mon-3.lst"]
       }
     }
   }

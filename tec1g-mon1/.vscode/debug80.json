@@ -15,7 +15,8 @@
         ],
         "appStart": 2048,
         "entry": 0,
-        "romHex": "../roms/tec1/mon-1b/mon-1b.hex"
+        "romHex": "../roms/tec1/mon-1b/mon-1b.hex",
+        "extraListings": ["../roms/tec1/mon-1b/mon-1b.lst"]
       }
     },
     "lcd-test": {
@@ -32,7 +33,8 @@
         ],
         "appStart": 2048,
         "entry": 0,
-        "romHex": "../roms/tec1/mon-1b/mon-1b.hex"
+        "romHex": "../roms/tec1/mon-1b/mon-1b.hex",
+        "extraListings": ["../roms/tec1/mon-1b/mon-1b.lst"]
       }
     }
   }

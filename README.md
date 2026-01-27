@@ -14,8 +14,8 @@ Select a target to assemble, load, and debug a specific program on that machine.
 
 ## ROMs
 
-- `roms/tec1/mon-1b/mon-1b.hex` (MON-1B, classic TEC-1 ROM).
-- `roms/tec1g/mon-3/mon-3.bin` (MON-3 BC24-15, from TEC-1G ROM bundle).
+- `roms/tec1/mon-1b/mon-1b.{asm,bin,hex,source.asm}` (MON-1B, classic TEC-1 ROM).
+- `roms/tec1g/mon-3/mon-3.{asm,bin,hex,source.asm}` (MON-3 BC24-15, from TEC-1G ROM bundle).
 
 ## Programs
 
