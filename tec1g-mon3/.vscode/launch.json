@@ -2,14 +2,18 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "main - Debug80 (TEC-1G MON-3)",
-      "type": "z80",
-      "request": "launch"
-    },
-    {
-      "name": "lcd-test - Debug80 (TEC-1G MON-3)",
+      "name": "Debug (TEC-1G MON-3 + Serial)",
       "type": "z80",
       "request": "launch",
+      "projectConfig": "${workspaceFolder}/.vscode/debug80.json",
+      "target": "serial",
+      "stopOnEntry": true
+    },
+    {
+      "name": "Debug (TEC-1G MON-3 LCD Test)",
+      "type": "z80",
+      "request": "launch",
+      "projectConfig": "${workspaceFolder}/.vscode/debug80.json",
       "target": "lcd-test"
     }
   ]

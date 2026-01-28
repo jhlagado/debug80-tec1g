@@ -1,12 +1,12 @@
 {
-  "defaultTarget": "main",
+  "defaultTarget": "serial",
   "targets": {
-    "main": {
-      "asm": "src/main.asm",
-      "sourceFile": "src/main.asm",
+    "serial": {
+      "asm": "src/serial.asm",
+      "sourceFile": "src/serial.asm",
       "sourceRoots": ["src"],
       "outputDir": "build",
-      "artifactBase": "main",
+      "artifactBase": "serial",
       "platform": "tec1g",
       "tec1g": {
         "regions": [
