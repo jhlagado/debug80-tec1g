@@ -37,6 +37,13 @@
       "target": "glcd-maze"
     },
     {
+      "name": "Debug (TEC-1G MON-3 GLCD Text)",
+      "type": "z80",
+      "request": "launch",
+      "projectConfig": "${workspaceFolder}/.vscode/debug80.json",
+      "target": "glcd-text"
+    },
+    {
       "name": "Debug (TEC-1G MON-3 GLCD 3D Demo)",
       "type": "z80",
       "request": "launch",
