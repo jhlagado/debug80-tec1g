@@ -3,21 +3,37 @@
   "targets": {
     "serial": {
       "asm": "src/serial.asm",
-      "sourceFile": "src/serial.asm",
-      "sourceRoots": ["src"],
+      "sourceFile": "src/glcd-maze.asm",
+      "sourceRoots": [
+        "src"
+      ],
       "outputDir": "build",
       "artifactBase": "serial",
       "platform": "tec1g",
       "tec1g": {
         "regions": [
-          { "start": 0, "end": 2047, "kind": "rom" },
-          { "start": 2048, "end": 32767, "kind": "ram" },
-          { "start": 49152, "end": 65535, "kind": "rom" }
+          {
+            "start": 0,
+            "end": 2047,
+            "kind": "rom"
+          },
+          {
+            "start": 2048,
+            "end": 32767,
+            "kind": "ram"
+          },
+          {
+            "start": 49152,
+            "end": 65535,
+            "kind": "rom"
+          }
         ],
         "appStart": 16384,
         "entry": 0,
         "romHex": "../roms/tec1g/mon-3/mon-3.bin",
-        "extraListings": ["../roms/tec1g/mon-3/mon-3.lst"],
+        "extraListings": [
+          "../roms/tec1g/mon-3/mon-3.lst"
+        ],
         "uiVisibility": {
           "serial": true,
           "glcd": false,
@@ -28,20 +44,36 @@
     "lcd-test": {
       "asm": "src/lcd-test.asm",
       "sourceFile": "src/lcd-test.asm",
-      "sourceRoots": ["src"],
+      "sourceRoots": [
+        "src"
+      ],
       "outputDir": "build",
       "artifactBase": "lcd-test",
       "platform": "tec1g",
       "tec1g": {
         "regions": [
-          { "start": 0, "end": 2047, "kind": "rom" },
-          { "start": 2048, "end": 32767, "kind": "ram" },
-          { "start": 49152, "end": 65535, "kind": "rom" }
+          {
+            "start": 0,
+            "end": 2047,
+            "kind": "rom"
+          },
+          {
+            "start": 2048,
+            "end": 32767,
+            "kind": "ram"
+          },
+          {
+            "start": 49152,
+            "end": 65535,
+            "kind": "rom"
+          }
         ],
         "appStart": 16384,
         "entry": 0,
         "romHex": "../roms/tec1g/mon-3/mon-3.bin",
-        "extraListings": ["../roms/tec1g/mon-3/mon-3.lst"],
+        "extraListings": [
+          "../roms/tec1g/mon-3/mon-3.lst"
+        ],
         "uiVisibility": {
           "lcd": true,
           "serial": false,
@@ -53,20 +85,36 @@
     "glcd-demo": {
       "asm": "src/glcd-demo.asm",
       "sourceFile": "src/glcd-demo.asm",
-      "sourceRoots": ["src"],
+      "sourceRoots": [
+        "src"
+      ],
       "outputDir": "build",
       "artifactBase": "glcd-demo",
       "platform": "tec1g",
       "tec1g": {
         "regions": [
-          { "start": 0, "end": 2047, "kind": "rom" },
-          { "start": 2048, "end": 32767, "kind": "ram" },
-          { "start": 49152, "end": 65535, "kind": "rom" }
+          {
+            "start": 0,
+            "end": 2047,
+            "kind": "rom"
+          },
+          {
+            "start": 2048,
+            "end": 32767,
+            "kind": "ram"
+          },
+          {
+            "start": 49152,
+            "end": 65535,
+            "kind": "rom"
+          }
         ],
         "appStart": 16384,
         "entry": 0,
         "romHex": "../roms/tec1g/mon-3/mon-3.bin",
-        "extraListings": ["../roms/tec1g/mon-3/mon-3.lst"],
+        "extraListings": [
+          "../roms/tec1g/mon-3/mon-3.lst"
+        ],
         "uiVisibility": {
           "glcd": true,
           "serial": false,
@@ -77,20 +125,36 @@
     "glcd-mad": {
       "asm": "src/glcd-mad.asm",
       "sourceFile": "src/glcd-mad.asm",
-      "sourceRoots": ["src"],
+      "sourceRoots": [
+        "src"
+      ],
       "outputDir": "build",
       "artifactBase": "glcd-mad",
       "platform": "tec1g",
       "tec1g": {
         "regions": [
-          { "start": 0, "end": 2047, "kind": "rom" },
-          { "start": 2048, "end": 32767, "kind": "ram" },
-          { "start": 49152, "end": 65535, "kind": "rom" }
+          {
+            "start": 0,
+            "end": 2047,
+            "kind": "rom"
+          },
+          {
+            "start": 2048,
+            "end": 32767,
+            "kind": "ram"
+          },
+          {
+            "start": 49152,
+            "end": 65535,
+            "kind": "rom"
+          }
         ],
         "appStart": 16384,
         "entry": 0,
         "romHex": "../roms/tec1g/mon-3/mon-3.bin",
-        "extraListings": ["../roms/tec1g/mon-3/mon-3.lst"],
+        "extraListings": [
+          "../roms/tec1g/mon-3/mon-3.lst"
+        ],
         "uiVisibility": {
           "glcd": true,
           "serial": false,
@@ -101,20 +165,36 @@
     "glcd-maze": {
       "asm": "src/glcd-maze.asm",
       "sourceFile": "src/glcd-maze.asm",
-      "sourceRoots": ["src"],
+      "sourceRoots": [
+        "src"
+      ],
       "outputDir": "build",
       "artifactBase": "glcd-maze",
       "platform": "tec1g",
       "tec1g": {
         "regions": [
-          { "start": 0, "end": 2047, "kind": "rom" },
-          { "start": 2048, "end": 32767, "kind": "ram" },
-          { "start": 49152, "end": 65535, "kind": "rom" }
+          {
+            "start": 0,
+            "end": 2047,
+            "kind": "rom"
+          },
+          {
+            "start": 2048,
+            "end": 32767,
+            "kind": "ram"
+          },
+          {
+            "start": 49152,
+            "end": 65535,
+            "kind": "rom"
+          }
         ],
         "appStart": 16384,
         "entry": 0,
         "romHex": "../roms/tec1g/mon-3/mon-3.bin",
-        "extraListings": ["../roms/tec1g/mon-3/mon-3.lst"],
+        "extraListings": [
+          "../roms/tec1g/mon-3/mon-3.lst"
+        ],
         "uiVisibility": {
           "glcd": true,
           "serial": false,
@@ -125,20 +205,36 @@
     "glcd-text": {
       "asm": "src/glcd-text.asm",
       "sourceFile": "src/glcd-text.asm",
-      "sourceRoots": ["src"],
+      "sourceRoots": [
+        "src"
+      ],
       "outputDir": "build",
       "artifactBase": "glcd-text",
       "platform": "tec1g",
       "tec1g": {
         "regions": [
-          { "start": 0, "end": 2047, "kind": "rom" },
-          { "start": 2048, "end": 32767, "kind": "ram" },
-          { "start": 49152, "end": 65535, "kind": "rom" }
+          {
+            "start": 0,
+            "end": 2047,
+            "kind": "rom"
+          },
+          {
+            "start": 2048,
+            "end": 32767,
+            "kind": "ram"
+          },
+          {
+            "start": 49152,
+            "end": 65535,
+            "kind": "rom"
+          }
         ],
         "appStart": 16384,
         "entry": 0,
         "romHex": "../roms/tec1g/mon-3/mon-3.bin",
-        "extraListings": ["../roms/tec1g/mon-3/mon-3.lst"],
+        "extraListings": [
+          "../roms/tec1g/mon-3/mon-3.lst"
+        ],
         "uiVisibility": {
           "glcd": true,
           "serial": false,
@@ -148,21 +244,37 @@
     },
     "glcd-3d": {
       "asm": "src/glcd-3d.asm",
-      "sourceFile": "src/glcd-3d.asm",
-      "sourceRoots": ["src"],
+      "sourceFile": "src/lcd-test.asm",
+      "sourceRoots": [
+        "src"
+      ],
       "outputDir": "build",
       "artifactBase": "glcd-3d",
       "platform": "tec1g",
       "tec1g": {
         "regions": [
-          { "start": 0, "end": 2047, "kind": "rom" },
-          { "start": 2048, "end": 32767, "kind": "ram" },
-          { "start": 49152, "end": 65535, "kind": "rom" }
+          {
+            "start": 0,
+            "end": 2047,
+            "kind": "rom"
+          },
+          {
+            "start": 2048,
+            "end": 32767,
+            "kind": "ram"
+          },
+          {
+            "start": 49152,
+            "end": 65535,
+            "kind": "rom"
+          }
         ],
         "appStart": 16384,
         "entry": 0,
         "romHex": "../roms/tec1g/mon-3/mon-3.bin",
-        "extraListings": ["../roms/tec1g/mon-3/mon-3.lst"],
+        "extraListings": [
+          "../roms/tec1g/mon-3/mon-3.lst"
+        ],
         "uiVisibility": {
           "glcd": true,
           "serial": false,
@@ -173,20 +285,36 @@
     "matrix-demo": {
       "asm": "src/matrix-demo.asm",
       "sourceFile": "src/matrix-demo.asm",
-      "sourceRoots": ["src"],
+      "sourceRoots": [
+        "src"
+      ],
       "outputDir": "build",
       "artifactBase": "matrix-demo",
       "platform": "tec1g",
       "tec1g": {
         "regions": [
-          { "start": 0, "end": 2047, "kind": "rom" },
-          { "start": 2048, "end": 32767, "kind": "ram" },
-          { "start": 49152, "end": 65535, "kind": "rom" }
+          {
+            "start": 0,
+            "end": 2047,
+            "kind": "rom"
+          },
+          {
+            "start": 2048,
+            "end": 32767,
+            "kind": "ram"
+          },
+          {
+            "start": 49152,
+            "end": 65535,
+            "kind": "rom"
+          }
         ],
         "appStart": 16384,
         "entry": 0,
         "romHex": "../roms/tec1g/mon-3/mon-3.bin",
-        "extraListings": ["../roms/tec1g/mon-3/mon-3.lst"],
+        "extraListings": [
+          "../roms/tec1g/mon-3/mon-3.lst"
+        ],
         "uiVisibility": {
           "matrix": true,
           "serial": false,
